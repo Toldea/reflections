@@ -37,3 +37,19 @@ How can you use the staging area to make sure you have one commit per logical ch
 	Finally you can call git diff --staged to check your staging area against your most recent
 	 commit.
 	This way you can make sure you are actually commiting the changes that you had in mind.
+	
+What are some situations where branches would be helpful in keeping your history organized?
+How would branches help?
+
+	Branches can be used to separate different aspects of a program so you can work on each of
+	 them separately.
+	Likewise you can also use this to more easily allow multiple people working on different parts
+	 of the program.
+	Some example situations would be adding an experimental feature, refactoring parts of the code,
+	 adding a different language or experimenting with ways to speed up the program.
+	By working on a different branch you can make any of these changes without affecting the main
+	 branch.
+	Doing this keeps the main branch 'clean' until whatever feature or bug you were working on is
+	 done. Then it can be merged back into the main branch.
+	If whatever you were doing didn't work out in the end, you can just discard the branch and
+	 just continue with the main branch.

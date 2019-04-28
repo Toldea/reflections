@@ -1,0 +1,60 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+	By seeing what is different between the two files, you only focus on what has changed.
+	The parts of the code that didn't change can't possibly contain the bug.
+	Therefore limiting your attention to just what changed makes it faster to locate the bug.
+	
+How could having easy access to the entire history of a file make you a more efficient programmer
+ in the long term?
+
+	You can quickly view every change made to a file.
+	This way you can easily find changes that perhaps introduced bugs.
+	Likewise you could also revert old code that you cut out but might need again.
+	
+What do you think are the pros and cons of manually choosing when to create a commit, like you do
+ in Git, vs having versions automatically saved, like Google Docs does?
+ 
+	The pros are that manual commits can allow you to commit at logical times.
+	Because you get to choose the moment you can make sure to commit at frequent but
+	 meaningful moments.
+	When you commit automatically you will very likely run into problems where you commit mid-
+	 sentence or otherwise in a state where the code doesn't compile properly.
+	The downside of manual commiting however is that it is more prone to user error.
+	The user might simply forget to commit frequently enough, or perhaps commits at inappropriate
+	 moments or maybe even commits too frequently.
+	 
+Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+ while others, like Google Docs, treat each file seperately.
+ 
+	A program is often composed from multiple source files interacting with each other.
+	To fix a certain problem, you often need to make changes to multiple files.
+	Having different repositories for each of them would be very inconvenient.
+	This way you couldn't view everything that has changed for a single problem fix or new feature.
+	With Google Docs you are generally working on completely separate independent documents.
+	Here there isn't generally a relationship between the different files.
+	Therefore it makes more sense to 'commit' only the one file at a time.
+	With normal use you'd only ever want to compare or revert a single file against its ancestor.
+	
+How can you use the commands git log and git diff to view the history of files?
+
+	Git log can be used to give you a.. log of all the commits in order of latest to first.
+	In it we are shown a comit ID, an author and a date as well as a comment.
+	The comment gives us an idea on what has been worked on in this particular commit.
+	We can then use the diff command to look at what changed between one commit and another.
+	We have to pase in the two ids for the commits, which we found using git log.
+	By running git diff we get to see every line that was either added or removed.
+	
+How might using version control make you more confident to make changes that could break something?
+
+	By using git checkout you can always revert to an older version, should the changes indeed
+	 cause something to break.
+	Likewise by using git diff you can also get a look at what lines you changed and therefore make
+	 it a little easier to find the cause of the newly introduced bug.
+	 
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I want to try using git for my android app project.
+	While I have already used git in the past, I haven't really done anything more with it other
+	 than just simple commits.
+	I'd like to use this course to learn some more advanced git techniques and specifically also
+	 get a better idea as to when to use certain techniques.

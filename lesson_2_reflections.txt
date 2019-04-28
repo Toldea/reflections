@@ -24,3 +24,16 @@ How is the staging area differnt from the working directory and the repository? 
 	 way.
 	If you'd have to add every single file in a commit command then you'd get insanely long
 	 terminal commands.
+	 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	You can use the staging area to firstly put in any changes that are a part of the logical
+	 change you want to commit.
+	You can then call git diff to compare your working directory and your staging area.
+	Doing this allows you to see what changes you have made that you are attempting to commit.
+	If there are any files that you still want to include in the commit, you can do so.
+	Likewise if you find that you are adding files that shouldn't be in this logical commit,
+	 then you have the opportunity to remove them from the staging area.
+	Finally you can call git diff --staged to check your staging area against your most recent
+	 commit.
+	This way you can make sure you are actually commiting the changes that you had in mind.

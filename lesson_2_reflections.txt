@@ -1,0 +1,26 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When you call git init, an invisable folder called .git will be created.
+	This file holds all the information needed for git to run.
+	It will keep track of things like commits, where the HEAD is, and keep old versions
+	 of your files.
+	You need to call git init to start using git. Without it you'd just have a folder with 
+	 your files.
+	To be able to use version control you need git to create and manage all the logic behind it.
+	
+How is the staging area differnt from the working directory and the repository? What value do you
+ think it offers?
+
+	The staging area is a temporary 'in between' area.
+	The working directory contains all the current files.
+	The repository contains the commits of different versions.
+	The staging area allows the user to manipulate what files get added to the repository.
+	Using the staging area, you can add or potentionally remove files to add to the repository one
+	 by one.
+	Once you are done you can commit them to the repository.
+	By not automatically adding every new file to a repository on commit, you get the ability to 
+	 exclude certain files. For example, large media files or other unwanted files.
+	By working with a staging area you can determine what files get commited in a more convenient
+	 way.
+	If you'd have to add every single file in a commit command then you'd get insanely long
+	 terminal commands.

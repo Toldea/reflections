@@ -53,3 +53,20 @@ How would branches help?
 	 done. Then it can be merged back into the main branch.
 	If whatever you were doing didn't work out in the end, you can just discard the branch and
 	 just continue with the main branch.
+	 
+How do the diagrams help you visualize the branch structure?
+
+	They give you a visual idea of the structure of the repository.
+	What commits are part of which branch.
+	How the different branches are layed out.
+	Where the master is.
+	Which commits are visable on which parts of the repository.
+	Which commits might be floating and not part of any branch and therefore might be lost.
+	
+What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
+
+	The result is we make a new commit that combines all the changes from both branches.
+	This means all the lines that were added or deleted by both branches will be merged into one.
+	Since you effectively are left with a combination of both branches, it makes sense to
+	 annotate it as being the child of both nodes.

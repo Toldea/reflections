@@ -70,3 +70,12 @@ Why do we represent it in the diagram the way we do?
 	This means all the lines that were added or deleted by both branches will be merged into one.
 	Since you effectively are left with a combination of both branches, it makes sense to
 	 annotate it as being the child of both nodes.
+	 
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	It would be very tedious to have to manually merge every single difference.
+	That said, merging manually gives you more control. You are less likely to add or delete 
+	 code that wasn't intended or that might introduce unwanted bugs.
+	Luckily Git takes somewhat of a middle ground by merging mostly all of the changes that are
+	 separate to each other. Any changes that might conflict with each other will result in a 
+	 merging conflict that the user manually has to resolve.

@@ -9,3 +9,13 @@ When would you want to create a remote repository rather than keeping all your w
      an API or something amongst those lines.
     Finally it can be a way to back-up your files remotely, to protect you for when your local
      device is destroyed or stolen etc.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-
+ to-date with your remote repository?
+ 
+	You might be working on the project and therefore not want to automatically have other people's
+	 changes applied to your in-progress code. This might introduce unwanted additions and
+	 subtractions or result in merge conflicts you do not want.
+	You might start from the master branch but intent to commit your work to a new branch.
+	Therefore it wouldn't neccesarily be desireable to merge with an update to the master branch
+	 someone else has worked on.

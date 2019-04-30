@@ -1,1 +1,11 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+    When you are working across devices it makes sense to create a remote repository.
+    This could be because you personally work on different computers.
+    Likewise of course if you want to work with other people it makes sense that you'd want
+     them to be able to access the repository from their own devices.
+    Another scenario is if you are the sole creator of a project and only work on one device,
+     but want to share the project with others online. For instance if you've made a mod or
+     an API or something amongst those lines.
+    Finally it can be a way to back-up your files remotely, to protect you for when your local
+     device is destroyed or stolen etc.

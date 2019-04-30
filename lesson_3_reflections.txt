@@ -19,3 +19,21 @@ Why might you want to always pull changes manually rather than having Git automa
 	You might start from the master branch but intent to commit your work to a new branch.
 	Therefore it wouldn't neccesarily be desireable to merge with an update to the master branch
 	 someone else has worked on.
+	 
+Describe the differences between forks, clones, and branches. When would you use one instead of 
+ another?
+ 
+	Branches are a way to split of a lineair commit tree. Having multiple branches in a repository
+	 gives you the opportunity to work on multiple aspects of a program without them interacting
+	 with each other. By doing this you could for instance have multiple people each working on
+	 an individual feature or bug. Only once they are fully completed they can be attempted to be
+	 merged back onto the master branch.
+	A clone is a full copy of a repository. After the clone there is nothing that connects either
+	 repository to each other. You'd have to manually add changes made to one repository to the
+	 other.
+	A fork on the other hand creates more of a 'living' clone of a specific repository.
+	Changes made to the original repository will be reflected in the fork repository.
+	Changes made in the fork however aren't automatically added to the original repository.
+	These can however be added in the way of a push request.
+	This gives other users the option to alter the original code, but still gives the original
+	 owner the power on whether or not to include any of those made changes.

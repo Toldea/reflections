@@ -45,3 +45,11 @@ What is the benefit of having a copy of the last known state of the remote store
 	This way you have the ability to work on your branch, then resolve any merging conflicts
 	 with the remote branch locally and also offline before trying to push them back to the
 	 remote repository.
+	 
+How would you collaborate without using Git or GitHub? What would be easier, and what would
+ be harder?
+ 
+	A simple way to collaborate without using Git would be to use something like Dropbox instead.
+	You wouldn't really have to deal with or worry about things like commit and merge conflicts.
+	However on the flip side it would be very difficult for multiple people to work on the same
+	 file at once without running into trouble.

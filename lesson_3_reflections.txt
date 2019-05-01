@@ -53,3 +53,18 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	You wouldn't really have to deal with or worry about things like commit and merge conflicts.
 	However on the flip side it would be very difficult for multiple people to work on the same
 	 file at once without running into trouble.
+	 
+When would you want to make changes in a separate branch rather than directly in master? What
+ benefits does each approach have?
+ 
+	The benefit of working on a separate branch is that it gives you more control. This way you
+	 can develop a feature, push it to the remote and then have someone take some time to make sure
+	 a merge into master wouldn't result in any unexpected problems.
+	For instance if multiple people are all adding in their own features, it can quickly result
+	 into chaos if they all try to merge their work into master at the same time.
+	By having them all push their changes on a different branch you can merge them back into
+	 master one at a time and remain control over all the changes.
+	The downside of course is that this all takes some extra time and management to do.
+	If you are working on a smaller scale with less peoeple simultaniously altering the same code,
+	 it might be easier just to push directly to master and deal with the incidental merge conflict
+	 when it happens to arrive.
